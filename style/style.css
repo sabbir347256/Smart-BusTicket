@@ -14,3 +14,14 @@ body{
 .bus{
     border: 2px solid #1DD10066;
 }
+.banner{
+    background-image:url(../images/banner.png);
+    background-size:cover;
+    background-position: center;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+.poribohon-ticket{
+    border-radius: 7%;
+    border-top: 2px solid #1DD100;
+}
