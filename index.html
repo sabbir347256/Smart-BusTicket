@@ -33,7 +33,7 @@
                 <span class="font-extrabold lg:text-6xl text-3xl text-[#1DD100]">DadaBhai Paribahan</span>
                 <p class="text-white text-center">For the most accurate and up-to-date information on the status of
                     Dadabhai bus travel <br>or any other specific services.</p>
-                <button class="bg-[#1DD100] text-[#030712] font-bold px-6 py-4 rounded-lg">Buy Tickets</button>
+                <button id="buy-ticket" class="btn btn-success bg-[#1DD100] text-[#030712] font-bold px-6 py-4 rounded-lg">Buy Tickets</button>
             </div>
         </section>
     </header>
@@ -84,23 +84,190 @@
                     <p class="lg:mt-6 text-[#03071299] inter-font">This is the best travel poribohon in this country.
                         You are trust this travel poribohon and <br> we wish your journey was very safe.</p>
                 </div>
-                <div class="bg-[#FFFFFF] flex justify-between ">
-                    <div class=" flex lg:p-6">
-                        <img class="h-12"  src="images/bus-logo.png" alt="">
-                        <div class="min-w-full">
-                            <h1>DadaBhai Paribahan</h1>
-                            <p>Coach-009-WEB ! AC_Business</p>
+                <div class="bg-[#FFFFFF] lg:flex justify-between mt-8 rounded-2xl">
+                    <div>
+                        <div>
+                            <div class=" lg:flex lg:p-6">
+                                <img class="h-12"  src="images/bus-logo.png" alt="">
+                            <div class="min-w-full lg:ml-4">
+                                <h1 class="raleway-font font-bold text-3xl text-[#030712]">DadaBhai Paribahan</h1>
+                                <p>Coach-009-WEB ! AC_Business</p>
+                            </div>
+                            <div class=" items-center justify-center flex h-12 min-w-36 min-h-10 bg-[#1DD10026] rounded-md">
+                                <img class="h-6 mr-2" src="images/seat-green.png" alt="">
+                                <h1 class="inter-font text-[#1DD100]">40 Seats left</h1>
+                            </div>
+                            </div>
                         </div>
-                        <div class="lg:ml-14 items-center justify-center flex h-12 min-w-36 min-h-10 bg-[#1DD10026] rounded-md">
-                            <img class="h-6 mr-2" src="images/seat-green.png" alt="">
-                            <h1 class="inter-font text-[#1DD100]">40 Seats left</h1>
+                        <div class="bg-[#F7F8F8] mt-24 w-52 mr-24 lg:p-6 lg:ml-6 min-w-full rounded-lg lg:mb-10 raleway-font">
+                            <div class="flex justify-between">
+                                <h1 class="text-[#03071299]">Route</h1>
+                                <h1 class="text-[#030712] font-semibold">Dhaka - Sylhet</h1>
+                            </div>
+                            <br>
+                            <p>-----------------------------------------------------------------------------</p>
+                            <div class="flex justify-between">
+                                <h1 class="text-[#03071299]">Departure Time</h1>
+                                <h1 class="text-[#030712] font-semibold">9:00 PM</h1>
+                            </div>
+                            <br>
+                            <p>-----------------------------------------------------------------------------</p>
+                            <div class="flex inter-font ">
+                                <h1 class="bg-[#0307120D] text-[#030712CC] p-1 mr-3  rounded-lg inter-font">Boarding Point - Laxmipur</h1>
+                                <h1 class="bg-[#0307120D] text-[#030712CC] p-1 mr-3 rounded-lg inter-font">Dropping Point - Bogura</h1>
+                                <h1 class="bg-[#0307120D] text-[#030712CC] p-1 mr-3 rounded-lg inter-font">Est. Time - 11 Hour</h1>
+                            </div>
                         </div>
                     </div>
-                    <img class="info-image ml-10" src="images/info-devider.png" alt="">
-                    <div class="lg:p-6 lg:mt-20">
-                        <img src="images/fare.png" alt="">
-                        <h1>550 Taka</h1>
-                        <p>Per Seat</p>
+                    <img class=" desh-image info-image lg:ml-36" src="images/info-devider.png" alt="">
+                    <div class="p-6 lg:mr-24 lg:mt-36 text-center lg:mb-0 mb-24 mt-16">
+                        <img class="lg:ml-8 ml-28" src="images/fare.png" alt="">
+                        <h1 class="font-bold text-[#030712] text-3xl raleway-font">550 Taka</h1>
+                        <p class="text-[#03071299] text-2xl raleway-font">Per Seat</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seat lg:p-14 p-5 bg-[#F7F8F8] min-h-screen ">
+            <div class="lg:p-8 p-5 bg-[#FFFFFF] grid grid-cols-7">
+                <div class="col-span-3">
+                    <h1 class="text-[#030712] font-semibold text-2xl raleway-font">Select Your Seat</h1>
+                    <p>--------------------------------------------------------------------------</p>
+                    <div class="flex justify-between">
+                        <div class="flex">
+                            <img src="images/seat-gray.png" alt="">
+                            <h1>Available</h1>
+                        </div>
+                        <div class="flex lg:mr-2">
+                            <img src="images/seat-green-filled.png" alt="">
+                            <p>Selected</p>
+                        </div>
+                    </div>
+                    <p>--------------------------------------------------------------------------</p>
+                    <img class="driver-image px-7 py-2 rounded-xl" src="images/tabler-icon-steering-wheel.png" alt="">
+                    <div class="">
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>A</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">A1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">A2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">A3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">A4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>B</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">B1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">B2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">B3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">B4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>C</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">C1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">C2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">C3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">C4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>D</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">D1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">D2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">D3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">D4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>E</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">E1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">E2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">E3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">E4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>F</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">F1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">F2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">F3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">F4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>G</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">G1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">G2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">G3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">G4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>H</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">H1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">H2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">H3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">H4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>I</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">I1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">I2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">I3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">I4</button>
+                        </div>
+                        <div class="flex justify-between lg:pr-8 lg:mt-6 inter-font">
+                            <p>J</p>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">J1</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">J2</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">J3</button>
+                            <button class="bg-[#F7F8F8] px-9 py-2 rounded-xl text-[#03071280]">J4</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:ml-20">
+                    <img  src="images/Line 1.png" alt="">
+                </div>
+                <div class="col-span-3">
+                    <h1 class=" text-[#030712] font-semibold text-2xl raleway-font">Select Your Seat</h1>
+                    <p>--------------------------------------------------------------------------</p>
+                    <div class="bg-[#F7F8F8] inter-font mt-6 lg:py-6 lg:px-10">
+                        <div class="flex justify-between">
+                            <div class="flex">
+                                <p class="text-[#030712] text-[16px] font-bold">Seat</p>
+                                <p class="bg-[#1DD100] text-white px-1 rounded-lg ml-2">2</p>
+                            </div>
+                            <p class="text-[#030712] text-[16px] font-bold">Class</p>
+                            <p class="text-[#030712] text-[16px] font-bold">Price</p>
+                        </div>
+                        <p>-----------------------------------------------------</p>
+                        <div class="flex justify-between">
+                            <p class="text-[#03071299]">C2</p>
+                            <p class="text-[#03071299]">Economoy</p>
+                            <p class="text-[#03071299]">550</p>
+                        </div>
+                        <div class="flex justify-between mt-3">
+                            <p class="text-[#03071299]">C2</p>
+                            <p class="text-[#03071299]">Economoy</p>
+                            <p class="text-[#03071299]">550</p>
+                        </div>
+                        <img class="w-full lg:mt-2" src="images/Line 6.png" alt="">
+                        <div class="flex justify-between lg:mt-4">
+                            <p class="text-[#030712] text-[16px] font-bold">Total Price</p>
+                            <p class="text-[#030712] text-[16px] font-bold">BDT<span>1100</span></p>
+                        </div>
+                        <div class=" lg:mt-4 flex justify-around">
+                            <input type="text" name="" id="" placeholder="Have any copupon?" class="bg-[#FFFFFF] w-full lg:py-3 lg:px-6 rounded-l-lg">
+                            <div>
+                                <button class="btn btn-success bg-[#1DD100] text-white lg:px-8 lg:py-3 rounded-r-2xl">Apply</button>
+                            </div>
+                        </div>
+                        <div class="flex justify-between lg:mt-5">
+                            <p class="text-[#030712] text-[16px] font-bold">Grand Total</p>
+                            <p class="text-[#030712] text-[16px] font-bold">BDT<span>1100</span></p>
+                        </div>
+                    </div>
+                    <div class="lg:mt-10">
+                        <p class="text-[#030712] text-[16px] font-bold">Passenger Name*</p>
+                        <input type="text" name="" id="" placeholder="Enter your name" class="bg-[#FFFFFF] w-full lg:py-3 lg:px-6 rounded-lg lg:mt-6 border-2">
+                        <p class="text-[#030712] text-[16px] font-bold lg:mt-4">Phone Number*</p>
+                        <input type="number" name="" id="" placeholder="Enter your phone number" class="bg-[#FFFFFF] w-full lg:py-3 lg:px-6 rounded-lg lg:mt-6 border-2">
+                        <p class="text-[#030712] text-[16px] font-bold lg:mt-4">Email ID</p>
+                        <input type="email" name="" id="" placeholder="Enter your email id" class="bg-[#FFFFFF] w-full lg:py-3 lg:px-6 rounded-lg lg:mt-6 border-2">
+                        <button class="btn btn-success w-full lg:mt-6 font-bold text-white raleway-font bg-[#1DD100]">Success</button>
                     </div>
                 </div>
             </div>

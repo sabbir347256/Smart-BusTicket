@@ -22,6 +22,16 @@ body{
     background-repeat: no-repeat;
 }
 .poribohon-ticket{
-    border-radius: 7%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
     border-top: 2px solid #1DD100;
+}
+@media screen and (max-width : 600px) {
+    .desh-image{
+        display: none;
+    }
+}
+.driver-image{
+    margin-left: 75%;
+    background-color: #0307121A;
 }
