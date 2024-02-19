@@ -48,6 +48,7 @@ const cuponField = document.getElementById('copun-field');
 const inputApply = document.getElementById('inputApply');
 applyButton.addEventListener('click', function (e) {
     if (cuponField.value === 'NEW15') {
+        applyButton.removeAttribute('disabled');
         inputApply.classList.add('hidden');
         count = count + 1;
         priceTotal = (count * 550) - 550;
