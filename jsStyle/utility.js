@@ -48,7 +48,6 @@ const cuponField = document.getElementById('copun-field');
 const inputApply = document.getElementById('inputApply');
 applyButton.addEventListener('click', function (e) {
     if (cuponField.value === 'NEW15') {
-        applyButton.removeAttribute('disabled');
         inputApply.classList.add('hidden');
         count = count + 1;
         priceTotal = (count * 550) - 550;
@@ -66,9 +65,10 @@ applyButton.addEventListener('click', function (e) {
 const phoneNumber = document.getElementById('phone-Number');
 const Succes = document.getElementById('success');
 Succes.addEventListener('click', function (e) {
-    if(phoneNumber.value){
-        Succes.removeAttribute('disabled')
-    }
     setHiddenClass('hiddenClass');
     hideHiddenClass('request-succes');
 });
+const Continue = document.getElementById('Continue');
+Continue.addEventListener('click',function(){
+    hideHiddenClass('hiddenClass');
+})
