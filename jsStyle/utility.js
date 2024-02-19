@@ -47,7 +47,24 @@ applyButton.addEventListener('click',function(e){
         const mainPrice  = priceTotal - totalGrandPrice;
         grandTotal.innerText = mainPrice;
     }
-})
+});
+
+const phoneNumber = document.getElementById('phone-Number');
+const Succes = document.getElementById('success');
+Succes.addEventListener('click',function(e){
+    setHiddenClass('hiddenClass');
+    hideHiddenClass('request-succes');
+});
+
+function setHiddenClass(elementId){
+    const element = document.getElementById(elementId);
+    element.classList.add('hidden');
+}
+function hideHiddenClass(elementId){
+    const element = document.getElementById(elementId);
+    element.classList.remove('hidden');
+}
+
 
 function setInnerText(id,Value){
     const element = document.getElementById(id);
