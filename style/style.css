@@ -26,12 +26,26 @@ body{
     border-top-right-radius: 7%;
     border-top: 2px solid #1DD100;
 }
+.driver-image{
+    margin-left: 75%;
+    background-color: #0307121A;
+}
+.li{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+ 
+}
+.line1{
+    height: 86%;
+}
+@media screen and (max-width : 600px) {
+    .line-image, .seat-line{
+        display: none;
+    }
+}
 @media screen and (max-width : 600px) {
     .desh-image{
         display: none;
     }
-}
-.driver-image{
-    margin-left: 75%;
-    background-color: #0307121A;
 }

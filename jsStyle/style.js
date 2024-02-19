@@ -1,1 +1,0 @@
-const getButton = document.getElementById('buy-ticket');
